@@ -1,0 +1,12 @@
+repositories:
+- name: bitnami
+  url: https://charts.bitnami.com/bitnami
+
+releases:
+- name: test
+  namespace: testme
+  chart: bitnami/nginx
+
+- name: test2
+  namespace: testagain
+  chart: bitnami/nginx
