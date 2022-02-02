@@ -3,7 +3,7 @@ repositories:
   url: https://charts.bitnami.com/bitnami
 
 releases:
-- name: test
+- name: test1
   namespace: testme
   chart: bitnami/nginx
 
